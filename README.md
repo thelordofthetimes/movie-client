@@ -1,3 +1,3 @@
-# movierepo
-movie repository
+# movie-client
+movie api for client
 

@@ -1,31 +1,26 @@
 {
-  "name": "movierepo",
+  "name": "movie-client",
   "version": "0.1.0",
-  "description": "application programming interface for movie information",
+  "description": "movie application programming interface for client",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thelordofthetimes/movierepo.git"
+    "url": "git://github.com/thelordofthetimes/movie-client.git"
   },
   "keywords": [
     "movie",
-    "api",
-    "repository"
+    "apis",
+    "client"
   ],
   "author": "thelordofthetimes",
-  "license": "ISC",
+  "license": "BSD",
   "bugs": {
-    "url": "https://github.com/thelordofthetimes/movierepo/issues"
-  },
-  "homepage": "https://github.com/thelordofthetimes/movierepo#readme",
-  "dependencies": {
-    "request": "^2.67.0"
-  },
-  "devDependencies": {
-    "chai": "^3.4.1",
-    "mocha": "^2.3.4"
+    "url": "https://github.com/thelordofthetimes/movie-client/issues"
   }
 }
