@@ -22,5 +22,12 @@
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/thelordofthetimes/movie-client/issues"
+  },
+  "devDependencies": {
+    "chai": "~3.4.1",
+    "mocha": "~2.3.4"
+  },
+  "dependencies": {
+    "request": "~2.67.0"
   }
 }

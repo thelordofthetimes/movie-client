@@ -1,10 +1,10 @@
 var shold = require('chai').should();
-var MovieRepo = require('../index');
-var escape = MovieRepo.escape;
-var unescape = MovieRepo.unescape;
+var MovieClient = require('../index');
 
-describe('#escape', function() {
-   it('convert & to &amp;', function() {
-      escape('&').should.equal('&amp;');
+describe('#movie client', function() {
+   it('create new movie client with api key', function() {
+      var apiKey = 'api_key_string';
+      var movieClient = new MovieClient(apiKey);
+      movieClient.apiKey.should.equal(apiKey);
    });
 });
